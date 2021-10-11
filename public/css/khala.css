@@ -1,0 +1,199 @@
+@font-face{
+    font-family:'donald';
+    src:url("../fonts/donald-icon115b.eot?5gap68");
+    src:url("../fonts/donald-icon115b.eot?5gap68#iefix") format("embedded-opentype"),
+    url("../fonts/donald-icon115b.ttf?5gap68") format("truetype"),
+    url("../fonts/donald-icon115b.woff?5gap68") format("woff"),
+    url("../fonts/donald-icon115b.svg?5gap68#donald-icon") format("svg");
+    font-weight:normal;font-style:normal;font-display:block}
+.active-khala{
+    color: #fe5722;
+}
+
+/* hien thi color san pham chi tiet */
+
+/* end hien thi color san pham chi tiet */
+
+
+
+/* xu lý buttong tang giảm trong giỏ hàng */
+/* end xu lý buttong tang giảm trong giỏ hàng */
+/*coupn */
+
+/*checkout*/
+
+/*end checkout*/
+
+/*giao hang dia chi khac */
+
+
+
+
+
+/*add to cart popup*/
+.ss-loading {
+  z-index: 999;
+  background: white url('../images/ajax-loader2ab5.gif') center 14px no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 50% !important;
+  bottom: auto;
+  left: 50%;
+  right: auto;
+  width: 56px;
+  height: 56px;
+  margin-left: -28px;
+  margin-top: -28px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  text-indent: -999em;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+  /* danh muc san pham menu*/
+
+.dropdown-toggle::after {
+    content: "";
+    }
+.dropdown-toggle-khala::after {
+   
+    content: "\f107";
+    
+}    
+
+/* end danh muc san pham menu*/
+/*lam cho phan slider chinh giua*/
+.rev_slider_wrapper .rev_slider li[data-index="rs-2"] .tp-parallax-wrap:last-child {
+    left: 50% !important;
+    margin-left: -75px;
+}
+
+/*banner home full width paralax */
+.fullwidth-banner-khala{
+
+    background-image: url("../images/furniture-bg.jpg");
+}
+
+/* rating */
+
+
+.pro-rating{
+    padding-left: 15px;
+}
+.rating-stars .star-1 {
+    z-index: 10;
+}
+.rating-stars .star-2 {
+    z-index: 9;
+}
+.rating-stars .star-3 {
+    z-index: 8;
+}
+.rating-stars .star-4 {
+    z-index: 7;
+}
+
+.rating-stars {
+    display: flex;
+    position: relative;
+    height: 24px;
+    font-size: 1.4rem;
+    margin:0 auto;
+}
+.rating-stars a {
+    color: rgba(0,0,0,0.16);
+    text-indent: -9999px;
+    letter-spacing: 1px;
+    width: 26px;
+    letter-spacing: .2em;
+}
+.rating-stars .star-1::before {
+    width: 20%;
+}
+.rating-stars .star-2::before {
+    width: 40%;
+}
+.rating-stars .star-3::before {
+    width: 60%;
+}
+.rating-stars .star-4::before {
+    width: 80%;
+}
+.rating-stars .star-5::before {
+    content: "\e94b\e94b\e94b\e94b\e94b";
+}
+.rating-stars a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 24px;
+    line-height: 1;
+    font-family: 'Donald';
+    text-indent: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+.rating-stars a.active::before, .rating-stars a:hover::before {
+    content: "\e94b\e94b\e94b\e94b\e94b";
+    color: #d26e4b;
+}
+
+.rating-stars a.active-tab-review::before, .rating-stars a:hover::before {
+    content: "\e94b\e94b\e94b\e94b\e94b";
+    color: #d26e4b;
+}
+
+/* hien thi dung sao khi list bao nhieu danh gia */
+.khala-list-star{
+    display: flex;
+}
+.khala-list-star .rating-stars{
+    margin: 0;
+}
+/*filter shop danh muc san pham*/
+.product-category ul.list-menu > li .caret {
+    float: right;
+    position: relative;
+    top: 8px;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.product-category ul.list-menu > li ul li {
+    padding: 5px 15px;
+}
+.shop-page .product-category ul li.active{
+  color: #000;
+}
+.product-category ul.list-menu > li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.product-category ul.list-menu > li ul li a {
+    position: relative;
+}
+.product-category ul.list-menu > li ul li a::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background: #666;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    left: -15px;
+}
